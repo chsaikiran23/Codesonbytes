@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Do</title>
+
+    <link rel="stylesheet" href="to-do-style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>To-Do List</h1>
+      <form id="new-todo-form">
+        <input
+          type="text"
+          name="new-todo-input"
+          id="new-todo-input"
+          placeholder="What do you have planned?"
+        />
+        <input type="submit" id="new-todo-submit" value="Add todo" />
+      </form>
+    </header>
+    <main>
+      <section class="todo-list">
+        <h2>TO-DO</h2>
+
+        <div id="todo"></div>
+      </section>
+    </main>
+
+    <script src="todo-app.js"></script>
+  </body>
+</html>
